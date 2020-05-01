@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25AC0D3245BC5D10092161C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AC0D2245BC5D10092161C /* AppDelegate.swift */; };
+		F25AC0D5245BC5D10092161C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AC0D4245BC5D10092161C /* SceneDelegate.swift */; };
+		F25AC0D7245BC5D10092161C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AC0D6245BC5D10092161C /* ViewController.swift */; };
+		F25AC0DA245BC5D10092161C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25AC0D8245BC5D10092161C /* Main.storyboard */; };
+		F25AC0DD245BC5D10092161C /* nSars_Covid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F25AC0DB245BC5D10092161C /* nSars_Covid.xcdatamodeld */; };
+		F25AC0DF245BC5D20092161C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25AC0DE245BC5D20092161C /* Assets.xcassets */; };
+		F25AC0E2245BC5D20092161C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25AC0E0245BC5D20092161C /* LaunchScreen.storyboard */; };
+		F25AC0ED245BC5D20092161C /* nSars_CovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AC0EC245BC5D20092161C /* nSars_CovidTests.swift */; };
+		F25AC0F8245BC5D20092161C /* nSars_CovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AC0F7245BC5D20092161C /* nSars_CovidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25AC0E9245BC5D20092161C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25AC0C7245BC5D10092161C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25AC0CE245BC5D10092161C;
+			remoteInfo = "nSars-Covid";
+		};
+		F25AC0F4245BC5D20092161C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25AC0C7245BC5D10092161C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25AC0CE245BC5D10092161C;
+			remoteInfo = "nSars-Covid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25AC0CF245BC5D10092161C /* nSars-Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nSars-Covid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25AC0D2245BC5D10092161C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F25AC0D4245BC5D10092161C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F25AC0D6245BC5D10092161C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F25AC0D9245BC5D10092161C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25AC0DC245BC5D10092161C /* nSars_Covid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nSars_Covid.xcdatamodel; sourceTree = "<group>"; };
+		F25AC0DE245BC5D20092161C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25AC0E1245BC5D20092161C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25AC0E3245BC5D20092161C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25AC0E8245BC5D20092161C /* nSars-CovidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nSars-CovidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25AC0EC245BC5D20092161C /* nSars_CovidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nSars_CovidTests.swift; sourceTree = "<group>"; };
+		F25AC0EE245BC5D20092161C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25AC0F3245BC5D20092161C /* nSars-CovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nSars-CovidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25AC0F7245BC5D20092161C /* nSars_CovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nSars_CovidUITests.swift; sourceTree = "<group>"; };
+		F25AC0F9245BC5D20092161C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25AC0CC245BC5D10092161C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25AC0E5245BC5D20092161C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25AC0F0245BC5D20092161C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25AC0C6245BC5D10092161C = {
+			isa = PBXGroup;
+			children = (
+				F25AC0D1245BC5D10092161C /* nSars-Covid */,
+				F25AC0EB245BC5D20092161C /* nSars-CovidTests */,
+				F25AC0F6245BC5D20092161C /* nSars-CovidUITests */,
+				F25AC0D0245BC5D10092161C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25AC0D0245BC5D10092161C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25AC0CF245BC5D10092161C /* nSars-Covid.app */,
+				F25AC0E8245BC5D20092161C /* nSars-CovidTests.xctest */,
+				F25AC0F3245BC5D20092161C /* nSars-CovidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25AC0D1245BC5D10092161C /* nSars-Covid */ = {
+			isa = PBXGroup;
+			children = (
+				F25AC0D2245BC5D10092161C /* AppDelegate.swift */,
+				F25AC0D4245BC5D10092161C /* SceneDelegate.swift */,
+				F25AC0D6245BC5D10092161C /* ViewController.swift */,
+				F25AC0D8245BC5D10092161C /* Main.storyboard */,
+				F25AC0DE245BC5D20092161C /* Assets.xcassets */,
+				F25AC0E0245BC5D20092161C /* LaunchScreen.storyboard */,
+				F25AC0E3245BC5D20092161C /* Info.plist */,
+				F25AC0DB245BC5D10092161C /* nSars_Covid.xcdatamodeld */,
+			);
+			path = "nSars-Covid";
+			sourceTree = "<group>";
+		};
+		F25AC0EB245BC5D20092161C /* nSars-CovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25AC0EC245BC5D20092161C /* nSars_CovidTests.swift */,
+				F25AC0EE245BC5D20092161C /* Info.plist */,
+			);
+			path = "nSars-CovidTests";
+			sourceTree = "<group>";
+		};
+		F25AC0F6245BC5D20092161C /* nSars-CovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F25AC0F7245BC5D20092161C /* nSars_CovidUITests.swift */,
+				F25AC0F9245BC5D20092161C /* Info.plist */,
+			);
+			path = "nSars-CovidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25AC0CE245BC5D10092161C /* nSars-Covid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25AC0FC245BC5D20092161C /* Build configuration list for PBXNativeTarget "nSars-Covid" */;
+			buildPhases = (
+				F25AC0CB245BC5D10092161C /* Sources */,
+				F25AC0CC245BC5D10092161C /* Frameworks */,
+				F25AC0CD245BC5D10092161C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nSars-Covid";
+			productName = "nSars-Covid";
+			productReference = F25AC0CF245BC5D10092161C /* nSars-Covid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25AC0E7245BC5D20092161C /* nSars-CovidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25AC0FF245BC5D20092161C /* Build configuration list for PBXNativeTarget "nSars-CovidTests" */;
+			buildPhases = (
+				F25AC0E4245BC5D20092161C /* Sources */,
+				F25AC0E5245BC5D20092161C /* Frameworks */,
+				F25AC0E6245BC5D20092161C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25AC0EA245BC5D20092161C /* PBXTargetDependency */,
+			);
+			name = "nSars-CovidTests";
+			productName = "nSars-CovidTests";
+			productReference = F25AC0E8245BC5D20092161C /* nSars-CovidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F25AC0F2245BC5D20092161C /* nSars-CovidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25AC102245BC5D20092161C /* Build configuration list for PBXNativeTarget "nSars-CovidUITests" */;
+			buildPhases = (
+				F25AC0EF245BC5D20092161C /* Sources */,
+				F25AC0F0245BC5D20092161C /* Frameworks */,
+				F25AC0F1245BC5D20092161C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25AC0F5245BC5D20092161C /* PBXTargetDependency */,
+			);
+			name = "nSars-CovidUITests";
+			productName = "nSars-CovidUITests";
+			productReference = F25AC0F3245BC5D20092161C /* nSars-CovidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25AC0C7245BC5D10092161C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Subhash Tummala";
+				TargetAttributes = {
+					F25AC0CE245BC5D10092161C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					F25AC0E7245BC5D20092161C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F25AC0CE245BC5D10092161C;
+					};
+					F25AC0F2245BC5D20092161C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F25AC0CE245BC5D10092161C;
+					};
+				};
+			};
+			buildConfigurationList = F25AC0CA245BC5D10092161C /* Build configuration list for PBXProject "nSars-Covid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25AC0C6245BC5D10092161C;
+			productRefGroup = F25AC0D0245BC5D10092161C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25AC0CE245BC5D10092161C /* nSars-Covid */,
+				F25AC0E7245BC5D20092161C /* nSars-CovidTests */,
+				F25AC0F2245BC5D20092161C /* nSars-CovidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25AC0CD245BC5D10092161C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25AC0E2245BC5D20092161C /* LaunchScreen.storyboard in Resources */,
+				F25AC0DF245BC5D20092161C /* Assets.xcassets in Resources */,
+				F25AC0DA245BC5D10092161C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25AC0E6245BC5D20092161C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25AC0F1245BC5D20092161C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25AC0CB245BC5D10092161C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25AC0D7245BC5D10092161C /* ViewController.swift in Sources */,
+				F25AC0D3245BC5D10092161C /* AppDelegate.swift in Sources */,
+				F25AC0D5245BC5D10092161C /* SceneDelegate.swift in Sources */,
+				F25AC0DD245BC5D10092161C /* nSars_Covid.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25AC0E4245BC5D20092161C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25AC0ED245BC5D20092161C /* nSars_CovidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25AC0EF245BC5D20092161C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25AC0F8245BC5D20092161C /* nSars_CovidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25AC0EA245BC5D20092161C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25AC0CE245BC5D10092161C /* nSars-Covid */;
+			targetProxy = F25AC0E9245BC5D20092161C /* PBXContainerItemProxy */;
+		};
+		F25AC0F5245BC5D20092161C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25AC0CE245BC5D10092161C /* nSars-Covid */;
+			targetProxy = F25AC0F4245BC5D20092161C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25AC0D8245BC5D10092161C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25AC0D9245BC5D10092161C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F25AC0E0245BC5D20092161C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25AC0E1245BC5D20092161C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25AC0FA245BC5D20092161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F25AC0FB245BC5D20092161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25AC0FD245BC5D20092161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D6ABN5MEA;
+				INFOPLIST_FILE = "nSars-Covid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ventumm.nSars-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25AC0FE245BC5D20092161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D6ABN5MEA;
+				INFOPLIST_FILE = "nSars-Covid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ventumm.nSars-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F25AC100245BC5D20092161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D6ABN5MEA;
+				INFOPLIST_FILE = "nSars-CovidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ventumm.nSars-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nSars-Covid.app/nSars-Covid";
+			};
+			name = Debug;
+		};
+		F25AC101245BC5D20092161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D6ABN5MEA;
+				INFOPLIST_FILE = "nSars-CovidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ventumm.nSars-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nSars-Covid.app/nSars-Covid";
+			};
+			name = Release;
+		};
+		F25AC103245BC5D20092161C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D6ABN5MEA;
+				INFOPLIST_FILE = "nSars-CovidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ventumm.nSars-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nSars-Covid";
+			};
+			name = Debug;
+		};
+		F25AC104245BC5D20092161C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D6ABN5MEA;
+				INFOPLIST_FILE = "nSars-CovidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ventumm.nSars-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nSars-Covid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25AC0CA245BC5D10092161C /* Build configuration list for PBXProject "nSars-Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25AC0FA245BC5D20092161C /* Debug */,
+				F25AC0FB245BC5D20092161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25AC0FC245BC5D20092161C /* Build configuration list for PBXNativeTarget "nSars-Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25AC0FD245BC5D20092161C /* Debug */,
+				F25AC0FE245BC5D20092161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25AC0FF245BC5D20092161C /* Build configuration list for PBXNativeTarget "nSars-CovidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25AC100245BC5D20092161C /* Debug */,
+				F25AC101245BC5D20092161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25AC102245BC5D20092161C /* Build configuration list for PBXNativeTarget "nSars-CovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25AC103245BC5D20092161C /* Debug */,
+				F25AC104245BC5D20092161C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F25AC0DB245BC5D10092161C /* nSars_Covid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F25AC0DC245BC5D10092161C /* nSars_Covid.xcdatamodel */,
+			);
+			currentVersion = F25AC0DC245BC5D10092161C /* nSars_Covid.xcdatamodel */;
+			path = nSars_Covid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F25AC0C7245BC5D10092161C /* Project object */;
+}
