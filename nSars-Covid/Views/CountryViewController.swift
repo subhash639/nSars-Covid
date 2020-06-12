@@ -1,20 +1,18 @@
 //
-//  ViewController.swift
+//  CountryViewController.swift
 //  nSars-Covid
 //
-//  Created by Subhash Tummala on 4/30/20.
+//  Created by Subhash Tummala on 5/2/20.
 //  Copyright © 2020 Subhash Tummala. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CountryViewController: UIViewController {
+    
+    var path: String?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
 }
-
